@@ -286,6 +286,9 @@ WRITE(13,*)' '
     integer, intent (in) ::IELEM 
     !
     !-----------------------------------------------------------------
+    !
+    !
+    !Interface_Spring.txt,Dear friend, how to get this file?
     OPEN(3,FILE="Interface_Spring.txt", FORM="FORMATTED",STATUS="UNKNOWN")     
     !Program reads from file BarStruc.inp
     OPEN(13,FILE="INPUT_CHECK.DAC",FORM="FORMATTED",STATUS="UNKNOWN")
